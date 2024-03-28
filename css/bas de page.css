@@ -10,10 +10,7 @@ footer .part1 .objectif {
   width: 300px;
   line-height: 30px;
 }
-footer .part1 .heures {
-  width: 300px;
-}
-
+footer .part1 .heures,
 footer .part1 .contact {
   width: 300px;
 }
@@ -38,7 +35,8 @@ footer .part2Copyright {
   flex-direction: column;
   align-items: center;
 }
-.section-contact h2 {
+.section-contact h2,
+.section-temoignage h2 {
   color: white;
   font-size: 50px;
   text-align: center;
@@ -55,13 +53,14 @@ footer .part2Copyright {
 .section-newsletter .button {
   background-color: #007810;
   color: white;
-  width: 650px;
+  width: 100%;
 }
 /* fin section contact */
 /* debut newsletter  */
 .section-newsletter {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/femme\ dans\ un\ champs.jpg") no-repeat center;
+    url("../images/El\ África\ de\ los\ recursos\ naturales.jpeg") no-repeat
+      center;
   background-size: cover;
   padding: 100px 0;
   display: flex;
@@ -78,15 +77,18 @@ footer .part2Copyright {
   color: #007810;
   font-size: 50px;
   text-align: center;
+  margin: 0 0 30px 0;
 }
-.section-services .card-services {
+.section-services .card-services,
+.section-temoignage .card-services {
   display: flex;
   margin: 30px;
   justify-content: space-evenly;
 }
-.section-services .card-services .card {
+.section-services .card-services .card,
+.section-temoignage .card-services .card {
   background-color: white;
-  margin: 20px;
+  margin: 0 20px;
   padding: 60px 30px;
   text-align: center;
 }
@@ -97,19 +99,35 @@ footer .part2Copyright {
 }
 /* fin services */
 /* section about */
-.section-about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
+.section-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.section-about .about-left img{
-    width: 300px;
+.section-about .about-left img {
+  width: 300px;
 }
-.section-about .about-left p{
-    width: 500px;
-}
-.section-about .about-right img{
-    width: 500px;
+.section-about .about-left p,
+.section-about .about-right img {
+  width: 500px;
 }
 /* fin section about */
+/* section-temoignage */
+.section-temoignage {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/La\ fromagerie\ Chabert\ booste\ sa\ stratégie\ commerciale.jpeg")
+      no-repeat center;
+  background-size: cover;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-temoignage .card-services .card img {
+  width: 100px;
+}
+.section-temoignage .card-services .card h3 {
+  margin: 15px 0;
+}
+/* fin section-temoignage */
