@@ -142,3 +142,10 @@ align-items: center;
     border-radius: 0px 50px 0px 50px;
   
 }
+.section2 h1{
+    margin-top: 14%;
+    line-height: 2;
+}
+.section2 p{
+    line-height: 2;
+}
