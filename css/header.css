@@ -116,7 +116,7 @@ main{
 }
 .section-one .section2{
   height:  470px;
-  width: 730px;
+  width: 750px;
 align-items: center;
 
 }
@@ -143,9 +143,57 @@ align-items: center;
   
 }
 .section2 h1{
-    margin-top: 14%;
+    margin-top: 13%;
     line-height: 2;
 }
 .section2 p{
     line-height: 2;
+    margin-bottom: 11px;
+}
+
+.section-produit h2{
+    text-align: center;
+    line-height: 3;
+}
+.ligne1 .card1{
+    text-align: center;
+    width: 245px;
+    height: 270px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.ligne1 .card1 img{
+    width: 160px;
+    
+}
+.ligne1{
+    display: flex;
+   
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 3%;
+}
+.ligne1 .card1 p{
+    color: gray;
+    font-size: 12px;
+  line-height: 2;
+}
+.ligne1 .card1 h5{
+    line-height: 1;
+}
+.carte button{
+    padding: 10px 24px;
+    margin-top: 26px;
+    width: 245px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #007810;
+    color: #FFF;
+}
+.section-produit{
+    background-color: #EEEDE7;
+    height: 700px;
+}
+.section-one{
+    border-radius: 0px 0px 5px;
 }
